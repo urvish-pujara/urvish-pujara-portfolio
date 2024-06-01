@@ -19,6 +19,7 @@ import {
   thinkskill,
   evaluatehealth,
   remedo,
+  si,
   vlabs,
   tesla,
   shopify,
@@ -121,11 +122,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer Intern",
+    title: "Frontend Developer Intern",
     company_name: "Remedo",
     icon: remedo,
     iconBg: "#383E56",
-    date: "June 2023 - September 2023",
+    date: "June 2023 - October 2023",
     points: [
       "Built a linting tool used in software development of the organization to analyze source code for potential issues, errors, and violations of coding conventionsby creating a custom eslint plugin.",
       "The primary purpose of a linter was to enforce consistent coding style and to catch common programming mistakes early in the development process and to automate the process of identifying and fixing issues releiving the developers from the burden of manual code review.",
@@ -133,11 +134,23 @@ const experiences = [
     ],
   },
   {
-    title: "Mobile application Developer Intern",
+    title: "Backend Developer Intern",
+    company_name: "Single Interface",
+    icon: si,
+    iconBg: "#383E56",
+    date: "February 2024 - April 2024",
+    points: [
+      "Designed the backend architecture for a company's expense tracking web application, ensuring efficient management of all important transactions.",
+      "Developed APIs for CRUD operations on expenses, enabled users to set monthly and yearly budgets, and implemented email notifications for budget exceedance.",
+      "Created features for plotting graphs to visualize expenses using Python and SQL, enhancing data insights and user experience.",
+    ],
+  },
+  {
+    title: "Mobile application Developer Lead",
     company_name: "Evaluate Health",
     icon: evaluatehealth,
-    iconBg: "#E6DEDD",
-    date: "June 2023 - September 2023",
+    iconBg: "#383E56",
+    date: "January 2023 - March 2023",
     points: [
       "Developed a mobile application using React Native and Redux for the company's flagship product, which is a platform for doctors to manage their patients and appointments.",
       "Implemented a custom calendar using React Native's Animated API to display appointments in a timeline view.",
@@ -150,23 +163,25 @@ const experiences = [
     company_name: "Thinkskill",
     icon: thinkskill,
     iconBg: "#383E56",
-    date: "Feb 2023 - March 2023",
+    date: "May 2023 - June 2023",
     points: [
-      "Spearheaded the creation of a revolutionary React web app aimed at enhancing restaurant tip management.",
-      "Orchestrated the entire system's architecture, seamlessly integrating Firebase Cloud Messaging for real-time notifications and constructing ExpressJS APIs to streamline data retrieval from SQL databases.",
+      "Developed and designed responsive frontend templates for various website domains, including e-commerce, portfolios, and clones, as part of a dynamic team at ThinkSkill.",
+      "Demonstrated proficiency in creating visually appealing and user-friendly interfaces, ensuring a seamless user experience across multiple platforms and devices.",
+      "Collaborated effectively with team members to deliver high-quality frontend solutions, meeting diverse client requirements and industry standards.",
       ],
   },
   {
     title: "Software Developer Intern",
     company_name: "Virtual Labs",
     icon: vlabs,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#383E56",
+    date: "Jan 2022 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a software on the V-Labs-platform for students to access experiments for practical learning in Digital Logic Design.",
+      "Crafted a software that shows animation of the simulation of the circuit and the output of the circuit using Anime.js and GSAP libraries.",
+      "Designed and implemented a user-friendly interface for students to interact with the experiments, drag and drop components, and simulate circuits.",
+      "Integrated the software with the V-Labs platform to store student data and track their progress in the experiments.",
+
     ],
   },
 ];
@@ -200,67 +215,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SplitMate",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile application that allows users to manage their expenses efficiently. It includes features like real time notification and emails, payment integration, multi currency support, simplify debts, timely expense tracking.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "recharts",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jayghevariya/Splitwise-Mobile",
   },
   {
-    name: "Job IT",
+    name: "Campus Life Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application for smooth coordination and two-way interaction between college authorities and the campus life committee. It includes functions like team editing, invoice submission, budget approval, stats analysis, and role-based access levels.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "docker",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/urvish-pujara/clc_website",
   },
   {
-    name: "Trip Guide",
+    name: "C-shell",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An interactive user defined bash-like Shell which supports semicolon separated list of commands. Functionalities implemented: supports I/O redirection, piping, process management and signal handling. Technologies used: C, Operating System, Piping.",
     tags: [
       {
-        name: "nextjs",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Operating System",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Piping",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/urvish-pujara/c-shell",
   },
 ];
 
